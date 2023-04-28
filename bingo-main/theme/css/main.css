@@ -1,4 +1,3 @@
-
 .mycont{
 background-color: pink;
 color: purple;
@@ -9,6 +8,25 @@ border-right: 20px;
 border-radius: 50px;
 border-style: ridge;
 font-family: magneto;
+}
+
+#referral_div{
+background-color: white;
+}
+
+#get_referral_code{
+  color: purple;
+  background-color: white;
+}
+
+#gen_referral_code{
+  color: purple;
+  background-color: white;
+}
+
+#logout{
+  color: white; 
+  background-color: purple;
 }
 
 #player_title{
@@ -45,91 +63,6 @@ form{
 }
 
 
-
-#board{
-background-color: white;
-color: purple;
-font-size: 45px;
-text-align: center;
-border-left: 20px;
-border-right: 20px;
-border-radius: 50px;
-border-style: ridge;
-font-family: magneto;
-}
-
-#Lucky_Num{
-  background-color: purple;
-  border-radius: 50%;
-  color: white;
-  font-weight: 500;
-  display: auto;
-  width: 200px;
-  height: 200px;
-  right: 60px;
-  left: 60px;
-  text-align: center;
-  font-size: 170px;
-  align-items: center;
-  align-self: center;
-  align-content: center;
-  margin:auto;
-  bottom: 50px;
-  font-family: magneto;
-  text-shadow: horizontal-offset vertical-offset blur color;
-}
-
-#admin{
-  font-size: 2px;
-}
-
-#start {
-  background-color: blue;
-  text-align: center;
-  font-size: 10px;
-  align-items: center;
-  color: white;
-  opacity: 0.8;
-  margin:auto;
-  border-radius: 30px;
-  display: block;
-}
-
-#lotto{
-  font-style: Georgia;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 200px;
-  color: purple;
-  font-weight: 500;
-}
-
-#stop {
-  background-color: blue;
-  text-align: center;
-  font-size: 10px;
-  align-items: center;
-  color: white;
-  opacity: 0.8;
-  margin:auto;
-  margin-top: 50px;
-  border-radius: 30px;
-  display: none;
-}
-
-#reset {
-  background-color: blue;
-  text-align: center;
-  font-size: 10px;
-  align-items: center;
-  color: white;
-  opacity: 0.8;
-  margin:auto;
-  margin-top: 50px;
-  border-radius: 30px;
-  display: none;
-}
-
 #bonus{
   background-color: white;
   color: purple;
@@ -151,6 +84,67 @@ font-family: magneto;
   background-color: ;
   color: aqua;
   font-family: Georgia;
+}
+
+
+#ONE{  
+color: aqua;
+  font-family: roboto;
+   font-size: 30px;
+}
+
+#TWO{
+  color: aqua;
+  font-family: roboto;
+ font-size: 30px;
+}
+
+#THREE{
+ color: aqua;
+  font-family: roboto;
+ font-size: 30px;
+}
+
+#FOUR{
+ color: aqua;
+  font-family: roboto;
+ font-size: 30px;
+}
+
+#FIVE{
+ font-size: 30px;
+   color: aqua;
+  font-family: roboto;
+}
+
+#SIX{
+ font-size: 30px;
+  color: aqua;
+  font-family: roboto;
+}
+
+#SEVEN{
+ font-size: 30px;
+  color: aqua;
+  font-family: roboto;
+}
+
+#EIGHT{
+ font-size: 30px;
+  color: aqua;
+  font-family: roboto;
+}
+
+#NINE{
+ font-size: 30px;
+ color: aqua;
+  font-family: roboto;
+}
+
+#TEN{
+ font-size: 30px;
+  color: aqua;
+  font-family: roboto;
 }
 
 #phoneinp{
@@ -198,64 +192,86 @@ border-radius: 10px;
 }
 
 
-
-#ONE{  
-color: aqua;
-  font-family: roboto;
-   font-size: 30px;
+#admin{
+  font-size: 2px;
 }
 
-#TWO{
-  color: aqua;
-  font-family: roboto;
- font-size: 30px;
+#board{
+background-color: white;
+color: purple;
+font-size: 45px;
+text-align: center;
+border-left: 20px;
+border-right: 20px;
+border-radius: 50px;
+border-style: ridge;
+font-family: magneto;
 }
 
-#THREE{
- color: aqua;
-  font-family: roboto;
- font-size: 30px;
+#Lucky_Num{
+  background-color: purple;
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+  display: auto;
+  width: 200px;
+  height: 200px;
+  right: 60px;
+  left: 60px;
+  text-align: center;
+  font-size: 170px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin:auto;
+  bottom: 50px;
+  font-family: magneto;
+  text-shadow: horizontal-offset vertical-offset blur color;
 }
 
-
-#FOUR{
- color: aqua;
-  font-family: roboto;
- font-size: 30px;
+#start {
+  background-color: blue;
+  text-align: center;
+  font-size: 10px;
+  align-items: center;
+  color: white;
+  opacity: 0.8;
+  margin:auto;
+  border-radius: 30px;
+  display: block;
 }
 
-#FIVE{
- font-size: 30px;
-   color: aqua;
-  font-family: roboto;
+#lotto{
+  font-style: Georgia;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 200px;
+  color: purple;
+  font-weight: 500;
 }
 
-#SIX{
- font-size: 30px;
-  color: aqua;
-  font-family: roboto;
+#stop {
+  background-color: blue;
+  text-align: center;
+  font-size: 10px;
+  align-items: center;
+  color: white;
+  opacity: 0.8;
+  margin:auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  display: none;
 }
 
-#SEVEN{
- font-size: 30px;
-  color: aqua;
-  font-family: roboto;
-}
-
-#EIGHT{
- font-size: 30px;
-  color: aqua;
-  font-family: roboto;
-}
-
-#NINE{
- font-size: 30px;
- color: aqua;
-  font-family: roboto;
-}
-
-#TEN{
- font-size: 30px;
-  color: aqua;
-  font-family: roboto;
+#reset {
+  background-color: blue;
+  text-align: center;
+  font-size: 10px;
+  align-items: center;
+  color: white;
+  opacity: 0.8;
+  margin:auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  display: none;
 }
